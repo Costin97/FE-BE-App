@@ -1,0 +1,128 @@
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoutContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logoutContainer button {
+  margin-right: 48px;
+  margin-top: 24px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  background-color: #e1dada;
+  border-radius: 32px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60%;
+}
+
+.container input {
+  margin: 12px;
+  padding: 8px;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: white;
+}
+
+.container button {
+  padding: 4px;
+  width: 45%;
+  border-radius: 8px;
+  border-width: 3px;
+  color: #686464;
+  border-color: rgb(164, 161, 161);
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+
+.container button:hover {
+  cursor: pointer;
+  background-color: #686464;
+  color: white;
+}
+
+.loginTitle {
+  font-family: "Dancing Script", cursive;
+  font-size: 48px;
+  color: #686464;
+  margin: 0;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonsContainer button {
+  width: 80px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.icon {
+  margin-left: 8px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.invalidContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dancing Script", cursive;
+}
+
+.invalidContainer p {
+  color: red;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.addContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.addContainer button {
+  margin-left: 48px;
+}
+
+.logoutContainer p{
+  font-family: "Dancing Script", cursive;
+}
